@@ -120,9 +120,9 @@
 		451423F316D5181A00FA6E90 /* wf-test */ = {
 			isa = PBXGroup;
 			children = (
+				4518B3F216D62A4A00104F23 /* CoreData */,
 				451423FC16D5181A00FA6E90 /* SFTAppDelegate.h */,
 				451423FD16D5181A00FA6E90 /* SFTAppDelegate.m */,
-				4514240516D5181A00FA6E90 /* wf_test.xcdatamodeld */,
 				451423F416D5181A00FA6E90 /* Supporting Files */,
 			);
 			path = "wf-test";
@@ -159,6 +159,14 @@
 				4514241816D5181A00FA6E90 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4518B3F216D62A4A00104F23 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4514240516D5181A00FA6E90 /* wf_test.xcdatamodeld */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,6 +454,7 @@
 				4514242216D5181A00FA6E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4514242316D5181A00FA6E90 /* Build configuration list for PBXNativeTarget "wf-testTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +463,7 @@
 				4514242516D5181A00FA6E90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
