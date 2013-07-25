@@ -26,7 +26,12 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in wf-testTests");
+    NSString *a = @"a";
+    NSString *b = @"a";
+    
+    STAssertEqualObjects(a, a, @"a == a");
+    STAssertEquals(a, b, @"Inhalt gleich?");
+    // STFail(@"Unit tests are not implemented yet in wf-testTests");
 }
 
 @end
