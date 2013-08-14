@@ -24,6 +24,8 @@
 		4514241216D5181A00FA6E90 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451423F116D5181A00FA6E90 /* CoreData.framework */; };
 		4514241A16D5181A00FA6E90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4514241816D5181A00FA6E90 /* InfoPlist.strings */; };
 		4514241D16D5181A00FA6E90 /* wf_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4514241C16D5181A00FA6E90 /* wf_testTests.m */; };
+		45A8FB5717BB886800EDA3C8 /* SFTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8FB5617BB886800EDA3C8 /* SFTSettings.m */; };
+		45A8FB5817BB886800EDA3C8 /* SFTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8FB5617BB886800EDA3C8 /* SFTSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		4514241916D5181A00FA6E90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4514241B16D5181A00FA6E90 /* wf_testTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wf_testTests.h; sourceTree = "<group>"; };
 		4514241C16D5181A00FA6E90 /* wf_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wf_testTests.m; sourceTree = "<group>"; };
+		45A8FB5517BB886800EDA3C8 /* SFTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTSettings.h; sourceTree = "<group>"; };
+		45A8FB5617BB886800EDA3C8 /* SFTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 		451423F316D5181A00FA6E90 /* wf-test */ = {
 			isa = PBXGroup;
 			children = (
+				45A8FB5317BB863100EDA3C8 /* classes */,
 				4518B3F216D62A4A00104F23 /* CoreData */,
 				451423FC16D5181A00FA6E90 /* SFTAppDelegate.h */,
 				451423FD16D5181A00FA6E90 /* SFTAppDelegate.m */,
@@ -167,6 +172,23 @@
 				4514240516D5181A00FA6E90 /* wf_test.xcdatamodeld */,
 			);
 			name = CoreData;
+			sourceTree = "<group>";
+		};
+		45A8FB5317BB863100EDA3C8 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				45A8FB5417BB864800EDA3C8 /* SFTSettings */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		45A8FB5417BB864800EDA3C8 /* SFTSettings */ = {
+			isa = PBXGroup;
+			children = (
+				45A8FB5517BB886800EDA3C8 /* SFTSettings.h */,
+				45A8FB5617BB886800EDA3C8 /* SFTSettings.m */,
+			);
+			name = SFTSettings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +304,7 @@
 				451423FA16D5181A00FA6E90 /* main.m in Sources */,
 				451423FE16D5181A00FA6E90 /* SFTAppDelegate.m in Sources */,
 				4514240716D5181A00FA6E90 /* wf_test.xcdatamodeld in Sources */,
+				45A8FB5717BB886800EDA3C8 /* SFTSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4514241D16D5181A00FA6E90 /* wf_testTests.m in Sources */,
+				45A8FB5817BB886800EDA3C8 /* SFTSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
